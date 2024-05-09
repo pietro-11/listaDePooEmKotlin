@@ -1,6 +1,6 @@
  class Pessoa(var nome: String, var idade: Int, var altura: Double){
             fun imprimir(){
-                println("Nome: $nome\nIdade: $idade\nAltura: $altura")
+                println("Nome: $nome\nIdade: $idade anos\nAltura: $altura m")
             }
     }
    
